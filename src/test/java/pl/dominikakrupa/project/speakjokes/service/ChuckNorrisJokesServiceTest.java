@@ -47,7 +47,6 @@ class ChuckNorrisJokesServiceTest {
         //when
         ChuckNorrisJokesApiResponse chuckNorrisJokesApiResponse = service.randomJoke();
 
-
         //then
         Assertions.assertNotNull(chuckNorrisJokesApiResponse);
     }
