@@ -15,7 +15,7 @@ public class ChuckNorrisJokesService {
     public static final String API_URL = "https://api.chucknorris.io/jokes/random";
     private static final Logger LOGGER = Logger.getLogger(ChuckNorrisJokesService.class.getName());
 
-    private OkHttpClient client = new OkHttpClient();
+    private final OkHttpClient client = new OkHttpClient();
 
     public ChuckNorrisJokesApiResponse randomJoke() {
         LOGGER.info("randomJoke()");
@@ -38,7 +38,10 @@ public class ChuckNorrisJokesService {
                 .build();
 
         try (Response response = client.newCall(request).execute()) {
-            String body = response.body().string();
+            String body = null;
+            if (response.body() != null) {
+                body = response.body().string();
+            }
             LOGGER.info("run(...) = " + body);
             return body;
         }

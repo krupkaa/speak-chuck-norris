@@ -10,10 +10,9 @@ import java.util.logging.Logger;
 
 public class VoiceRssService {
 
-    public static final String API_URL = "http://api.voicerss.org/?key=1234567890QWERTY&hl=en-us&src=Hello, world!";
     private static final Logger LOGGER = Logger.getLogger(VoiceRssService.class.getName());
 
-    private OkHttpClient client;
+    private final OkHttpClient client;
 
     private final AudioPlayService audioPlayService;
 
