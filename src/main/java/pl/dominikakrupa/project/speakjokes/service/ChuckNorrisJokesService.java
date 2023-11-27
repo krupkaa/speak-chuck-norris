@@ -22,7 +22,7 @@ public class ChuckNorrisJokesService {
         try {
             String responseBody = getResponse(API_URL);
             ChuckNorrisJokesApiResponse apiResponse = convert(responseBody);
-            LOGGER.info("radomJoke(...) = " + apiResponse);
+            LOGGER.info("randomJoke(...) = " + apiResponse);
             return apiResponse;
         } catch (IOException e) {
             LOGGER.log(Level.SEVERE, "Unable to connect with external API.", e);
