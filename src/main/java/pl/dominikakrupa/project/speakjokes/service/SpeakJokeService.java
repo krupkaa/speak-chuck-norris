@@ -21,7 +21,7 @@ public class SpeakJokeService {
         ChuckNorrisJokesApiResponse chuckNorrisJokesApiResponse = chuckNorrisJokesService.randomJoke();
         String joke = chuckNorrisJokesApiResponse.getValue();
 
-        boolean spoken = false;
+        boolean spoken;
         try {
             spoken = voiceRssService.speakJoke(joke);
         } catch (IOException e) {

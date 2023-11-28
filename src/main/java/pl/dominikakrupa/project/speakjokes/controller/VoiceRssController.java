@@ -19,7 +19,7 @@ public class VoiceRssController {
     public boolean play(String textToVoice) {
         LOGGER.info("play(" + textToVoice + ")");
 
-        boolean spoken = false;
+        boolean spoken;
         try {
             spoken = voiceRssService.speakJoke(textToVoice);
         } catch (IOException e) {
