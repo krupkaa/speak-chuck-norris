@@ -1,0 +1,6 @@
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/SpeakChuckNorrisApplicationTests.java
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.java
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/service/VoiceRssServiceTest.java
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.java
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.java
+/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/service/AudioPlayServiceTest.java

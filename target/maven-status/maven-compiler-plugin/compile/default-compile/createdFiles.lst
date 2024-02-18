@@ -1,0 +1,10 @@
+pl/dominikakrupa/project/speakjokes/ChuckNorrisJokesApplication.class
+pl/dominikakrupa/project/speakjokes/SpeakChuckNorrisApplication.class
+pl/dominikakrupa/project/speakjokes/service/AudioPlayService.class
+pl/dominikakrupa/project/speakjokes/api/chucknorrisjokes/ChuckNorrisJokesApiResponse.class
+pl/dominikakrupa/project/speakjokes/controller/VoiceRssController.class
+pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesController.class
+pl/dominikakrupa/project/speakjokes/service/VoiceRssService.class
+pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesService.class
+pl/dominikakrupa/project/speakjokes/service/SpeakJokeService.class
+pl/dominikakrupa/project/speakjokes/VoiceRssApplication.class

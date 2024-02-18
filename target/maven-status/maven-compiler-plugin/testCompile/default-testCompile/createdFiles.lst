@@ -1,0 +1,6 @@
+pl/dominikakrupa/project/speakjokes/SpeakChuckNorrisApplicationTests.class
+pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.class
+pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.class
+pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.class
+pl/dominikakrupa/project/speakjokes/service/AudioPlayServiceTest.class
+pl/dominikakrupa/project/speakjokes/service/VoiceRssServiceTest.class
