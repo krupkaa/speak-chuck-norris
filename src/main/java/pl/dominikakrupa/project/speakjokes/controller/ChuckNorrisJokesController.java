@@ -1,10 +1,12 @@
 package pl.dominikakrupa.project.speakjokes.controller;
 
+import org.springframework.stereotype.Controller;
 import pl.dominikakrupa.project.speakjokes.api.chucknorrisjokes.ChuckNorrisJokesApiResponse;
 import pl.dominikakrupa.project.speakjokes.service.ChuckNorrisJokesService;
 
 import java.util.logging.Logger;
 
+@Controller
 public class ChuckNorrisJokesController {
 
     private static final Logger LOGGER = Logger.getLogger(ChuckNorrisJokesController.class.getName());
