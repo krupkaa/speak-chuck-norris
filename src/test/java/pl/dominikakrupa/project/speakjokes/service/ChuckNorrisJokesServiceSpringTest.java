@@ -17,7 +17,20 @@ class ChuckNorrisJokesServiceSpringTest {
     ChuckNorrisJokesService chuckNorrisJokesService;
 
     @Test
-    void randomJoke() throws IOException {
+    void randomJoke() {
+        //given
+        // ... NOTE: injected by Spring using @Autowired
+
+        //when
+        ChuckNorrisJokesApiResponse chuckNorrisJokesApiResponse = chuckNorrisJokesService.randomJoke();
+
+        //then
+        Assertions.assertNotNull(chuckNorrisJokesApiResponse, "response is NULL");
+    }
+
+
+    @Test
+    void getResponse() throws IOException {
         //given
         // ... NOTE: injected by Spring using @Autowired
         String url = "https://api.chucknorris.io/jokes/random";

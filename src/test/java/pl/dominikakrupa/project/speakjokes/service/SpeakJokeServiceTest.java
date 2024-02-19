@@ -9,7 +9,7 @@ class SpeakJokeServiceTest {
     @Test
     void speakJoke() {
         //given
-        ChuckNorrisJokesService chuckNorrisJokesService = new ChuckNorrisJokesService();
+        ChuckNorrisJokesService chuckNorrisJokesService = new ChuckNorrisJokesService(null);
         AudioPlayService audioPlayService = new AudioPlayService();
         VoiceRssService voiceRssService = new VoiceRssService(audioPlayService);
         SpeakJokeService speakJokeService = new SpeakJokeService(chuckNorrisJokesService, voiceRssService);

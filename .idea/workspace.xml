@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905c66fa-558e-4c5d-8f46-ba4881e63bb3" name="Changes" comment="add speakJoke and voiceRss">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="905c66fa-558e-4c5d-8f46-ba4881e63bb3" name="Changes" comment="add missing files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/ChuckNorrisJokesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/ChuckNorrisJokesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceSpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/ChuckNorrisJokesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/ChuckNorrisJokesApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/VoiceRssApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/VoiceRssApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/api/chucknorrisjokes/ChuckNorrisJokesApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/api/chucknorrisjokes/ChuckNorrisJokesApiResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/controller/VoiceRssController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/controller/VoiceRssController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/AudioPlayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/AudioPlayService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/SpeakJokeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/SpeakJokeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/VoiceRssService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/dominikakrupa/project/speakjokes/service/VoiceRssService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/controller/ChuckNorrisJokesControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/AudioPlayServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/AudioPlayServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceSpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceSpringTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/ChuckNorrisJokesServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/SpeakJokeServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/VoiceRssServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/dominikakrupa/project/speakjokes/service/VoiceRssServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -68,31 +65,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes/controller&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "develop",
+    "last_directory_selection": "/Users/dominikakrupa/Projekty/speak-chuck-norris/src/test/java/pl/dominikakrupa/project/speakjokes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,25 +102,23 @@
       <recent name="pl.dominikakrupa.project.speakjokes" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="pl.dominikakrupa.project.speakjokes.controller" />
+      <recent name="pl.dominikakrupa.project.speakjokes.repository" />
       <recent name="pl.dominikakrupa.project.speakjokes.service" />
+      <recent name="pl.dominikakrupa.project.speakjokes.controller" />
       <recent name="pl.dominikakrupa.project.speakjokes" />
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChuckNorrisJokesControllerSpringTest.randomJoke">
-    <configuration name="ChuckNorrisJokesControllerSpringTest.randomJoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JokesRepositoryTest.saveJoke">
+    <configuration name="ChuckNorrisJokesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.dominikakrupa.project.speakjokes.ChuckNorrisJokesApplication" />
       <module name="speak-chuck-norris" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.controller.*" />
+          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dominikakrupa.project.speakjokes.controller" />
-      <option name="MAIN_CLASS_NAME" value="pl.dominikakrupa.project.speakjokes.controller.ChuckNorrisJokesControllerSpringTest" />
-      <option name="METHOD_NAME" value="randomJoke" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,33 +139,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChuckNorrisJokesServiceTest.randomJoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JokesRepositoryTest.saveJoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="speak-chuck-norris" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.service.*" />
+          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.dominikakrupa.project.speakjokes.service" />
-      <option name="MAIN_CLASS_NAME" value="pl.dominikakrupa.project.speakjokes.service.ChuckNorrisJokesServiceTest" />
-      <option name="METHOD_NAME" value="randomJoke" />
+      <option name="PACKAGE_NAME" value="pl.dominikakrupa.project.speakjokes.repository" />
+      <option name="MAIN_CLASS_NAME" value="pl.dominikakrupa.project.speakjokes.repository.JokesRepositoryTest" />
+      <option name="METHOD_NAME" value="saveJoke" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpeakChuckNorrisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="speak-chuck-norris" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.dominikakrupa.project.speakjokes" />
-      <option name="MAIN_CLASS_NAME" value="pl.dominikakrupa.project.speakjokes.SpeakChuckNorrisApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,13 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpeakChuckNorrisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="speak-chuck-norris" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.dominikakrupa.project.speakjokes.SpeakChuckNorrisApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.dominikakrupa.project.speakjokes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChuckNorrisJokesControllerSpringTest.randomJoke" />
+        <item itemvalue="JUnit.JokesRepositoryTest.saveJoke" />
         <item itemvalue="JUnit.ChuckNorrisJokesServiceSpringTest.randomJoke" />
-        <item itemvalue="JUnit.ChuckNorrisJokesServiceTest.randomJoke" />
+        <item itemvalue="Spring Boot.SpeakChuckNorrisApplication" />
+        <item itemvalue="Application.ChuckNorrisJokesApplication" />
         <item itemvalue="JUnit.SpeakChuckNorrisApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.SpeakChuckNorrisApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +224,7 @@
       <workItem from="1701797442539" duration="1936000" />
       <workItem from="1702211226895" duration="2897000" />
       <workItem from="1702214607981" duration="4222000" />
-      <workItem from="1708249166305" duration="1097000" />
+      <workItem from="1708249166305" duration="9818000" />
     </task>
     <task id="LOCAL-00003" summary="bisness logic to get Response from external API">
       <option name="closed" value="true" />
@@ -273,7 +266,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701800856407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add missing files">
+      <option name="closed" value="true" />
+      <created>1708264957174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708264957174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add missing files">
+      <option name="closed" value="true" />
+      <created>1708265258218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708265258218</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +312,8 @@
     <MESSAGE value="VoiceRss, AudioPlay and SpeakJoke" />
     <MESSAGE value="code refactor" />
     <MESSAGE value="add speakJoke and voiceRss" />
-    <option name="LAST_COMMIT_MESSAGE" value="add speakJoke and voiceRss" />
+    <MESSAGE value="add missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add missing files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/speak_chuck_norris$java_in_speak_chuck_norris.ic" NAME="java in speak-chuck-norris Coverage Results" MODIFIED="1700823247541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

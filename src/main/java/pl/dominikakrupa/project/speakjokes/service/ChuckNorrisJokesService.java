@@ -6,6 +6,8 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.springframework.stereotype.Service;
 import pl.dominikakrupa.project.speakjokes.api.chucknorrisjokes.ChuckNorrisJokesApiResponse;
+import pl.dominikakrupa.project.speakjokes.repository.JokesEntity;
+import pl.dominikakrupa.project.speakjokes.repository.JokesRepository;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -17,13 +19,25 @@ public class ChuckNorrisJokesService {
     public static final String API_URL = "https://api.chucknorris.io/jokes/random";
     private static final Logger LOGGER = Logger.getLogger(ChuckNorrisJokesService.class.getName());
 
+    private final JokesRepository jokesRepository;
     private final OkHttpClient client = new OkHttpClient();
+
+    public ChuckNorrisJokesService(JokesRepository jokesRepository) {
+        this.jokesRepository = jokesRepository;
+    }
 
     public ChuckNorrisJokesApiResponse randomJoke() {
         LOGGER.info("randomJoke()");
         try {
             String responseBody = getResponse(API_URL);
             ChuckNorrisJokesApiResponse apiResponse = convert(responseBody);
+
+            String joke = apiResponse.getValue();
+            JokesEntity jokeEntity = new JokesEntity();
+            jokeEntity.setJoke(joke);
+            JokesEntity savedJokesEntity = jokesRepository.save(jokeEntity);
+            LOGGER.info("savedJokesEntity: " + savedJokesEntity);
+
             LOGGER.info("randomJoke(...) = " + apiResponse);
             return apiResponse;
         } catch (IOException e) {

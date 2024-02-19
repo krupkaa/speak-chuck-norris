@@ -12,7 +12,7 @@ class ChuckNorrisJokesServiceTest {
     @Test
     void run() throws IOException {
         //given
-        ChuckNorrisJokesService service = new ChuckNorrisJokesService();
+        ChuckNorrisJokesService service = new ChuckNorrisJokesService(null);
 
         //when
         String url = "https://api.chucknorris.io/jokes/random";
@@ -25,7 +25,7 @@ class ChuckNorrisJokesServiceTest {
     @Test
     void convert() {
         //given
-        ChuckNorrisJokesService service = new ChuckNorrisJokesService();
+        ChuckNorrisJokesService service = new ChuckNorrisJokesService(null);
 
         //when
         ChuckNorrisJokesApiResponse chuckNorrisJokesApiResponse = service.convert("{\n" +
@@ -42,7 +42,7 @@ class ChuckNorrisJokesServiceTest {
     @Test
     void randomJoke() {
         //given
-        ChuckNorrisJokesService service = new ChuckNorrisJokesService();
+        ChuckNorrisJokesService service = new ChuckNorrisJokesService(null);
 
         //when
         ChuckNorrisJokesApiResponse chuckNorrisJokesApiResponse = service.randomJoke();
